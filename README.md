@@ -2,6 +2,8 @@
 
 
 
+> This repository contains a small reproducible Python project developed as part of independent skill-building for research data analysis.
+
 Small Python project demonstrating basic research data handling and statistics.
 
 
