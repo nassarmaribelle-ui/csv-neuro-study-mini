@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Outputs (ignore generated files by default)
+outputs/*
+!outputs/example/
+!outputs/example/**
+data/raw/
+
+# OS
+.DS_Store

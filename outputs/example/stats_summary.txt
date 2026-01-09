@@ -1,0 +1,33 @@
+Correlation hippocampal volume vs MMSE: r=0.997, p=0.0000
+
+Linear regression: MMSE ~ hippocampal_volume_mm3 + age + education_years
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                   mmse   R-squared:                       0.994
+Model:                            OLS   Adj. R-squared:                  0.991
+Method:                 Least Squares   F-statistic:                     314.2
+Date:                Sat, 10 Jan 2026   Prob (F-statistic):           5.52e-07
+Time:                        00:34:56   Log-Likelihood:                 1.9964
+No. Observations:                  10   AIC:                             4.007
+Df Residuals:                       6   BIC:                             5.217
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+==========================================================================================
+                             coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+const                     -0.6830     11.100     -0.062      0.953     -27.842      26.477
+hippocampal_volume_mm3     0.0076      0.002      4.695      0.003       0.004       0.012
+age                        0.0399      0.090      0.443      0.673      -0.181       0.260
+education_years           -0.0119      0.073     -0.164      0.875      -0.189       0.166
+==============================================================================
+Omnibus:                        0.398   Durbin-Watson:                   1.935
+Prob(Omnibus):                  0.820   Jarque-Bera (JB):                0.054
+Skew:                           0.129   Prob(JB):                        0.974
+Kurtosis:                       2.752   Cond. No.                     4.42e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 4.42e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
